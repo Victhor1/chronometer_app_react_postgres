@@ -1,0 +1,6 @@
+CREATE DATABASE taskDB;
+
+CREATE TABLE task(
+    id SERIAL PRIMARY KEY,
+    content VARCHAR(255)
+);
